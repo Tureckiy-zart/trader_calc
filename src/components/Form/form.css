@@ -1,0 +1,18 @@
+.targetForm {
+  display: inline-flex;
+  flex-direction: column;
+  background-color: rgb(90, 54, 54);
+  width: 80%;
+  margin-bottom: 15px;
+}
+.controls {
+  display: inline-block;
+  text-align: center;
+}
+
+label {
+  margin:8px 20px;
+}
+input{
+  margin-left: 8px;
+}

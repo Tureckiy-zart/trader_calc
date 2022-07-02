@@ -1,14 +1,8 @@
 import React from "react";
-import BallanceForm from "../Form/BallanceForm";
 import TargetForm from "../Form/TargetForm";
 
-const GetDataBlock = () => {
-  return (
-    <div className="getData">
-      <TargetForm />
-      <BallanceForm />
-    </div>
-  );
+const GetDataBlock = (value, onSubmit, onChange) => {
+  return <div className="getData">{/* */}</div>;
 };
 
 export default GetDataBlock;

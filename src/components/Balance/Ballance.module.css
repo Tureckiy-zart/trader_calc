@@ -1,0 +1,5 @@
+.ballance-value:hover {
+  color: #4063d7;
+  text-decoration: underline;
+  cursor: pointer;
+}

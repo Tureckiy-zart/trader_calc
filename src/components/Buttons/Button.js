@@ -3,9 +3,10 @@ const Button = ({
   typeHandler = "button",
   onClickHandler = () => {},
   children = "Ok",
+  name = "",
 }) => {
   return (
-    <button onClick={onClickHandler} type={typeHandler}>
+    <button onClick={onClickHandler} name={name} type={typeHandler}>
       {children}
     </button>
   );

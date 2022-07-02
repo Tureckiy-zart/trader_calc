@@ -1,0 +1,13 @@
+.printData {
+  /* display: flex; */
+}
+.takeProfitValue {
+  color: chartreuse;
+}
+.currentBtc_color {
+  color: rgb(93, 38, 187);
+}
+.printData span {
+  margin: 0 10px;
+}
+

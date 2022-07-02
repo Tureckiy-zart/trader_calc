@@ -1,18 +1,42 @@
 .targetForm {
   display: inline-flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
   background-color: rgb(90, 54, 54);
   width: 80%;
   margin-bottom: 15px;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .controls {
-  display: inline-block;
+  display: block;
   text-align: center;
 }
 
-label {
-  margin:8px 20px;
+.targetForm_setStartData_container {
+  width: 33%;
 }
-input{
-  margin-left: 8px;
+label {
+  display: block;
+  /* margin:8px 20px; */
+}
+input {
+  /* margin-left: 8px; */
+}
+.trade-max_value {
+  width: 40%;
+  margin: auto;
+}
+
+.ballanceForm {
+  display: flex;
+  margin: 0 auto;
+  height: 50px;
+  padding: 0;
+  /* margin: 20px 0 20px 0; */
+  /* height: 22px; */
+  /* width: 40%; */
+  justify-content: space-between;
+}
+.change-ballance {
 }
